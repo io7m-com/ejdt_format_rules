@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.io7m.primogenitor</groupId>
+    <artifactId>com.io7m.primogenitor.lite</artifactId>
+    <version>9.2.0</version>
+  </parent>
+
+  <groupId>com.io7m.ejdt_format_rules</groupId>
+  <artifactId>com.io7m.ejdt_format_rules</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <packaging>jar</packaging>
+  <name>com.io7m.ejdt_format_rules</name>
+  <description>Eclipse JDT formatter rules for all io7m projects</description>
+  <url>https://www.io7m.com/software/ejdt_format_rules</url>
+
+  <properties>
+    <io7m.workID>d5547603-5d22-4175-b7c2-00eb74eea1cc</io7m.workID>
+
+    <io7m.java.targetJavaVersion>9</io7m.java.targetJavaVersion>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>ISC</name>
+      <url>https://www.io7m.com/license/isc.txt</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://www.github.com/io7m-com/ejdt_format_rules</url>
+    <connection>scm:git:https://www.github.com/io7m-com/ejdt_format_rules</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/ejdt_format_rules</developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>io7m</id>
+      <name>Mark Raynsford</name>
+      <email>code@io7m.com</email>
+      <url>https://www.io7m.com</url>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <url>https://www.github.com/io7m-com/ejdt_format_rules/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <distributionManagement>
+    <site>
+      <id>io7m.com</id>
+      <name>io7m.com</name>
+      <url>https://www.io7m.com/software/ejdt_format_rules</url>
+    </site>
+    <snapshotRepository>
+      <id>central</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://www.github.com/io7m-com/ejdt_format_rules/actions</url>
+  </ciManagement>
+
+  <prerequisites>
+    <maven>3.0.4</maven>
+  </prerequisites>
+
+</project>
