@@ -24,6 +24,7 @@
   <properties>
     <io7m.workID>d5547603-5d22-4175-b7c2-00eb74eea1cc</io7m.workID>
 
+    <io7m.api.previousVersion>1.0.0-SNAPSHOT</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>9</io7m.java.targetJavaVersion>
   </properties>
 
