@@ -1,0 +1,5 @@
+
+## ejdt_format_rules
+
+The `ejdt_format_rules` package provides rules for the Eclipse JDT formatter
+for all [io7m](https://www.io7m.com) projects.
